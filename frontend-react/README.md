@@ -1,16 +1,75 @@
-# React + Vite
+# 🎵 Folklore Music
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto fullstack em desenvolvimento, criado para organizar álbuns favoritos com uma interface moderna e integração entre React e .NET Web API.
 
-Currently, two official plugins are available:
+## 🚧 Status do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Projeto em andamento.
 
-## React Compiler
+Atualmente, a aplicação possui cadastro, listagem e exclusão de álbuns favoritos. A próxima etapa será a implementação de recursos com Inteligência Artificial.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🤖 Funcionalidades futuras com IA
 
-## Expanding the ESLint configuration
+- Recomendação de álbuns com base nos gostos do usuário
+- Sugestão automática de gênero musical
+- Geração de descrições para os álbuns
+- Análise do estilo musical da coleção
+- Sugestão de novos artistas semelhantes
+- Criação de playlists personalizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias
+
+### Frontend
+- React
+- Vite
+- Axios
+- CSS3
+
+### Backend
+- .NET Web API
+- Entity Framework Core
+- SQLite
+
+### Futuramente
+- Integração com API de Inteligência Artificial
+- Consumo de API externa de música
+- Sistema de recomendação
+
+## 🧠 Arquitetura
+
+O projeto utiliza arquitetura em camadas, separando responsabilidades entre frontend, backend, regras de negócio e persistência de dados.
+
+```bash
+React
+↓
+Axios
+↓
+.NET Web API
+↓
+Services
+↓
+Entity Framework
+↓
+SQLite
+
+## 📌 Funcionalidades atuais
+ - Cadastro de álbuns favoritos
+ - Listagem de álbuns
+ - Remoção de álbuns
+ - Link para Spotify ou YouTube
+ - Interface responsiva
+ - Integração frontend/backend
+
+ 👩‍💻 Desenvolvido por
+
+ Gabrielli Cristini
+
+ GitHub: https://github.com/gabrieIIi1
+
+
+## Para subir:
+
+ - ```bash
+   git add README.md
+   git commit -m "docs: update README with AI roadmap"
+   git push
