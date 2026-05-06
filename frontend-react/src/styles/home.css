@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  overflow: hidden;
+}
+
+.navbar {
+  height: 90px;
+  padding: 30px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.menu a {
+  font-size: 14px;
+  color: #555;
+  font-weight: 700;
+}
+
+.menu a:first-child {
+  color: #df7fa2;
+}
+
+.logo {
+  color: #df7fa2;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.search {
+  font-size: 32px;
+  color: #999;
+}
+
+.hero {
+  position: relative;
+  min-height: 520px;
+  padding: 20px 70px 60px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 130px;
+  left: -20px;
+  right: -20px;
+  text-align: center;
+  font-size: 170px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: -8px;
+  z-index: 1;
+}
+
+.hero-card {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  margin: 70px auto 0;
+  background: #f3a8bd;
+  border-radius: 44% 56% 48% 52%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 35px 80px rgba(223, 127, 162, 0.35);
+}
+
+.hero-card img {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 38px;
+}
+
+.hero-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 45px;
+}
+
+.small {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.hero-bottom h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.description {
+  max-width: 420px;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.form-section {
+  background: #df7fa2;
+  padding: 60px 70px;
+  color: white;
+}
+
+.form-section h2 {
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 4px;
+  margin-bottom: 35px;
+}
+
+.formulario {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.formulario input {
+  padding: 18px 22px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+}
+
+.formulario button {
+  grid-column: span 2;
+  padding: 18px;
+  border-radius: 999px;
+  border: none;
+  background: white;
+  color: #df7fa2;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.collection {
+  background: #df7fa2;
+  padding: 30px 70px 80px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-title h2 {
+  color: white;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+.section-title span {
+  color: rgba(255, 255, 255, 0.45);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 38px;
+  margin-top: 30px;
+}
+
+.card {
+  color: white;
+}
+
+.image-box {
+  position: relative;
+  background: #f4a8be;
+  height: 290px;
+  border-radius: 80px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 36px;
+}
+
+.eco {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  background: white;
+  color: #df7fa2;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 18px 0 2px;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.genero {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.card button {
+  margin-top: 16px;
+  border: none;
+  background: white;
+  color: #df7fa2;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.about {
+  min-height: 500px;
+  padding: 90px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about div {
+  max-width: 360px;
+}
+
+.about p {
+  color: #777;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.about button {
+  margin-top: 20px;
+  border: none;
+  background: #df7fa2;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 999px;
+  font-weight: 900;
+}
+
+.about h2 {
+  font-size: 130px;
+  color: #df7fa2;
+  letter-spacing: -8px;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .navbar,
+  .hero,
+  .form-section,
+  .collection,
+  .about {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero h1 {
+    font-size: 80px;
+    top: 150px;
+  }
+
+  .hero-card {
+    width: 260px;
+    height: 260px;
+  }
+
+  .hero-card img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-bottom,
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario button {
+    grid-column: span 1;
+  }
+
+  .section-title {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .section-title h2 {
+    font-size: 34px;
+  }
+
+  .about h2 {
+    font-size: 70px;
+  }
+}
+.card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.listen-button {
+  flex: 1;
+  text-align: center;
+  background: white;
+  color: #df7fa2;
+  padding: 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 900;
+  transition: 0.2s;
+}
+
+.listen-button:hover {
+  transform: translateY(-2px);
+}
+
+.card button {
+  flex: 1;
+  border: none;
+  background: #111;
+  color: white;
+  padding: 12px;
+  border-radius: 999px;
+  font-weight: 900;
+  cursor: pointer;
+}
